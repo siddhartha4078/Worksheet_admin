@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32435" started-at="2017-11-14T06:15:41Z" finished-at="2017-11-14T06:16:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32435" started-at="2017-11-14T06:15:41Z" finished-at="2017-11-14T06:16:13Z">
+      <class name="Test_Cases.check_worksheetdelete">
+        <test-method status="PASS" signature="before_suite()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="before_suite" is-config="true" duration-ms="8862" started-at="2017-11-14T11:45:32Z" finished-at="2017-11-14T11:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before_suite -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="login" is-config="true" duration-ms="6625" started-at="2017-11-14T11:45:41Z" finished-at="2017-11-14T11:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="Login" duration-ms="2314" started-at="2017-11-14T11:45:47Z" finished-at="2017-11-14T11:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tracerror(org.testng.ITestResult)[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="tracerror" is-config="true" duration-ms="2" started-at="2017-11-14T11:45:50Z" finished-at="2017-11-14T11:45:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login status=SUCCESS method=check_login.Login()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracerror -->
+        <test-method status="PASS" signature="navigate()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="navigate" duration-ms="13174" started-at="2017-11-14T11:45:50Z" finished-at="2017-11-14T11:46:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate -->
+        <test-method status="PASS" signature="tracerror(org.testng.ITestResult)[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="tracerror" is-config="true" duration-ms="1" started-at="2017-11-14T11:46:03Z" finished-at="2017-11-14T11:46:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=navigate status=SUCCESS method=check_worksheetdelete.navigate()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracerror -->
+        <test-method status="PASS" signature="search_worksheet()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="search_worksheet" duration-ms="6791" started-at="2017-11-14T11:46:03Z" finished-at="2017-11-14T11:46:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_worksheet -->
+        <test-method status="PASS" signature="tracerror(org.testng.ITestResult)[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="tracerror" is-config="true" duration-ms="0" started-at="2017-11-14T11:46:10Z" finished-at="2017-11-14T11:46:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search_worksheet status=SUCCESS method=check_worksheetdelete.search_worksheet()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tracerror -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test_Cases.check_worksheetdelete@934b6cb]" name="teardown" is-config="true" duration-ms="3510" started-at="2017-11-14T11:46:10Z" finished-at="2017-11-14T11:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test_Cases.check_worksheetdelete -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
